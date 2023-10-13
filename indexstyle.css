@@ -1,0 +1,103 @@
+
+/*This part of the code is for the menu*/
+.header 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.sidemenu
+{
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;  
+}
+
+.sidemenu:hover
+{
+  background-color: #102933;
+}
+/*Ends Here*/
+
+
+
+/*This part of the code is for the little animation on aula 4*/
+.anim
+{
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+#div1
+{
+  animation: right 2s ease-in-out infinite;
+  animation-duration: 5s;
+  background-color: #020024;
+}
+
+#div1:hover
+{
+  background-color: #fff;
+}
+
+#div2
+{
+  animation: right 2s ease-in-out infinite;
+  animation-duration: 5s;
+  animation-delay: 0.1s;
+  background-color: #040239;
+}
+
+#div2:hover
+{
+  background-color: #fff;
+}
+
+#div3
+{
+  animation: right 2s ease-in-out infinite;
+  animation-duration: 5s;
+  animation-delay: 0.2s;
+  background-color: #050449;
+}
+
+#div3:hover
+{
+  background-color: #fff;
+}
+
+#div4
+{
+  animation: right 2s ease-in-out infinite;
+  animation-duration: 5s;
+  animation-delay: 0.3s;
+  background-color: #090979;
+}
+
+#div4:hover
+{
+  background-color: #fff;
+}
+
+
+@keyframes right 
+{
+    0% {
+        width: 0;
+    }
+
+    50% {
+         width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+/*Ends Here*/
